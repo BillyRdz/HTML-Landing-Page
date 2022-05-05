@@ -3,78 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>LandingPage</title>
   </head>
   <body>
     <header>
-      <span>Header Logo</span>
-      <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
+      <div class="container header">
+        <span>Header Logo</span>
+        <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div>
-          <h1>This website is awesome</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font a nd the color is lower contrast.
-          </p>
-          <div><a href="#">Sign Up</a></div>
+        <div class="container">
+          <div class="hero-left">
+            <h1>This website is awesome</h1>
+            <p>
+              This website has some subtext that goes here under the main title.
+              It's a smaller font a nd the color is lower contrast.
+            </p>
+            <a href="#" class="btn">Sign Up</a>
+          </div>
+          <div class="hero-right">
+            <img src="https://placekitten.com/350/150" alt="Image" />
+          </div>
         </div>
-        <div><img src="#" alt="Image" /></div>
       </section>
       <section class="cards">
-        <h2>Some random information</h2>
-        <div>
+        <div class="container">
+          <h2>Some random information</h2>
           <div>
-            <img src="#" alt="thumbnail-1" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="#" alt="thumbnail-1" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="#" alt="thumbnail-1" />
-            <p>This is some subtext under an illustration or image</p>
-          </div>
-          <div>
-            <img src="#" alt="thumbnail-1" />
-            <p>This is some subtext under an illustration or image</p>
+            <div>
+              <img src="#" alt="thumbnail-1" />
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div>
+              <img src="#" alt="thumbnail-1" />
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div>
+              <img src="#" alt="thumbnail-1" />
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div>
+              <img src="#" alt="thumbnail-1" />
+              <p>This is some subtext under an illustration or image</p>
+            </div>
           </div>
         </div>
       </section>
-      <section>
-        <blockquote>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat
-          optio ipsa saepe? Numquam maxime ab dolorum impedit, optio fugit
-          accusantium cumque beatae facere blanditiis.
-        </blockquote>
-        <span>Thor, God of Thunder</span>
+      <section class="quote">
+        <div class="container">
+          <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            quaerat optio ipsa saepe? Numquam maxime ab dolorum impedit, optio
+            fugit accusantium cumque beatae facere blanditiis.
+          </blockquote>
+          <span>Thor, God of Thunder</span>
+        </div>
       </section>
-      <section>
-        <div>
-          <h3>Call to action! It's time!</h3>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
-          <a href="#">Sign Up</a>
+      <section class="cta">
+        <div class="container">
+          <div>
+            <h3>Call to action! It's time!</h3>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+            <a href="#">Sign Up</a>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <span>Copyright C The Odin Project 2021</span>
+      <div class="container">
+        <span>Copyright C The Odin Project 2021</span>
+      </div>
     </footer>
   </body>
 </html>
