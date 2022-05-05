@@ -73,7 +73,28 @@ footer {
   background: #1f2937;
 }
 .cards {
-  background-color: red;
+  background-color: #ffffff;
+}
+.cards .container {
+  padding: 20px 0 75px;
+}
+.cards h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  padding-bottom: 50px;
+}
+.card-container {
+  display: flex;
+}
+.card {
+  padding: 0 10px;
+  text-align: center;
+}
+.card img {
+  border: 2px solid blue;
+  border-radius: .8em;
 }
 .quote {
   background-color: blue;
