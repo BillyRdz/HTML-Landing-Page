@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+header,
+.hero,
+footer {
+  background: #1f2937;
+}
+header,
+header ul,
+header li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header > span {
+  font-size: 24px;
+  color: #f9faf8;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+li,
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero a {
+  padding: 5px 25px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.cards img {
+  height: auto;
+  width: 250px;
+  border: 2px solid blue;
+}
